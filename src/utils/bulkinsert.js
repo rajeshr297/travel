@@ -21,7 +21,7 @@ export async function bulkinsert(upload_id, csvfile) {
 
     .on('data', async (row) => {
       // dataFromRows.push(row);
-      const update = await Maintainer.findOneAndUpdate({ trolley_no: row.Number }, {
+      const update = await Maintainer.findOneAndUpdate({ trolley_no: row.Trolley_Number }, {
         $set: {
           maintenance_period: row.Maintenance_Period,
           type_of_trolley: row.Type_of_Trolley,
@@ -35,11 +35,12 @@ export async function bulkinsert(upload_id, csvfile) {
           actual_product_use: row.Actual_Product_use,
           date_of_maintenance: row.Date_of_Maintenance,
           shift_of_maintenance: row.shift_of_Maintenance,
-          remarks: row.Remark,
+          remarks: row.Remarks,
         },
       }, { new: true });
       if (!update) {
         await Maintainer.create({
+          trolley_no: row.Trolley_Number,
           maintenance_period: row.Maintenance_Period,
           type_of_trolley: row.Type_of_Trolley,
           wheels: row.Wheels,
@@ -52,14 +53,14 @@ export async function bulkinsert(upload_id, csvfile) {
           actual_product_use: row.Actual_Product_use,
           date_of_maintenance: row.Date_of_Maintenance,
           shift_of_maintenance: row.shift_of_Maintenance,
-          remarks: row.Remark,
+          remarks: row.Remarks,
         });
       }
-      console.log(row);
+      // console.log(row);
       total_record += 1;
     })
     .on('end', async () => {
       // total_record = dataFromRows.length || 0;
-      console.log(total_record);
+      // console.log(total_record);
     });
 }

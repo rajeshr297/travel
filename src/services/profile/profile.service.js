@@ -53,7 +53,7 @@ class ProfileService {
     }
   }
 
-  async register(email, password) {
+  async register(name, department, email, password) {
     logger.info('inside admin login service');
     try {
       const employeefind = await Users.findOne({ email });
@@ -63,7 +63,9 @@ class ProfileService {
           status: 404,
         };
       }
-      const employeecreate = await Users.create({ email, password, role: 'Admin' });
+      const employeecreate = await Users.create({
+        email, name, department, password, role: 'Admin',
+      });
 
       return {
         message: 'successfully login companies',
@@ -79,6 +81,40 @@ class ProfileService {
             employeecreate.role,
           ),
         },
+      };
+    } catch (error) {
+      logger.error(error);
+      throw error;
+    }
+  }
+
+  async get_users() {
+    try {
+      const userget = await Users.find();
+      return {
+        status: 200,
+        message: 'successfully get user details',
+        users: userget,
+      };
+    } catch (error) {
+      logger.error(error);
+      throw error;
+    }
+  }
+
+  async delete_users(user_id) {
+    try {
+      const userfind = await Users.findByIdAndDelete({ _id: user_id });
+      if (!userfind) {
+        return {
+          status: 404,
+          message: 'user id not found',
+        };
+      }
+      return {
+        message: 'successfully delete users',
+        status: 200,
+        user: userfind,
       };
     } catch (error) {
       logger.error(error);

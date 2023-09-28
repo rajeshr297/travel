@@ -107,7 +107,7 @@ var ProfileService = /*#__PURE__*/function () {
   }, {
     key: "register",
     value: function () {
-      var _register = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(email, password) {
+      var _register = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(name, department, email, password) {
         var employeefind, employeecreate;
         return _regeneratorRuntime().wrap(function _callee2$(_context2) {
           while (1) switch (_context2.prev = _context2.next) {
@@ -132,6 +132,8 @@ var ProfileService = /*#__PURE__*/function () {
               _context2.next = 9;
               return _models.Users.create({
                 email: email,
+                name: name,
+                department: department,
                 password: password,
                 role: 'Admin'
               });
@@ -167,10 +169,89 @@ var ProfileService = /*#__PURE__*/function () {
           }
         }, _callee2, null, [[1, 21]]);
       }));
-      function register(_x3, _x4) {
+      function register(_x3, _x4, _x5, _x6) {
         return _register.apply(this, arguments);
       }
       return register;
+    }()
+  }, {
+    key: "get_users",
+    value: function () {
+      var _get_users = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
+        var userget;
+        return _regeneratorRuntime().wrap(function _callee3$(_context3) {
+          while (1) switch (_context3.prev = _context3.next) {
+            case 0:
+              _context3.prev = 0;
+              _context3.next = 3;
+              return _models.Users.find();
+            case 3:
+              userget = _context3.sent;
+              return _context3.abrupt("return", {
+                status: 200,
+                message: 'successfully get user details',
+                users: userget
+              });
+            case 7:
+              _context3.prev = 7;
+              _context3.t0 = _context3["catch"](0);
+              _logger["default"].error(_context3.t0);
+              throw _context3.t0;
+            case 11:
+            case "end":
+              return _context3.stop();
+          }
+        }, _callee3, null, [[0, 7]]);
+      }));
+      function get_users() {
+        return _get_users.apply(this, arguments);
+      }
+      return get_users;
+    }()
+  }, {
+    key: "delete_users",
+    value: function () {
+      var _delete_users = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4(user_id) {
+        var userfind;
+        return _regeneratorRuntime().wrap(function _callee4$(_context4) {
+          while (1) switch (_context4.prev = _context4.next) {
+            case 0:
+              _context4.prev = 0;
+              _context4.next = 3;
+              return _models.Users.findByIdAndDelete({
+                _id: user_id
+              });
+            case 3:
+              userfind = _context4.sent;
+              if (userfind) {
+                _context4.next = 6;
+                break;
+              }
+              return _context4.abrupt("return", {
+                status: 404,
+                message: 'user id not found'
+              });
+            case 6:
+              return _context4.abrupt("return", {
+                message: 'successfully delete users',
+                status: 200,
+                user: userfind
+              });
+            case 9:
+              _context4.prev = 9;
+              _context4.t0 = _context4["catch"](0);
+              _logger["default"].error(_context4.t0);
+              throw _context4.t0;
+            case 13:
+            case "end":
+              return _context4.stop();
+          }
+        }, _callee4, null, [[0, 9]]);
+      }));
+      function delete_users(_x7) {
+        return _delete_users.apply(this, arguments);
+      }
+      return delete_users;
     }()
   }]);
   return ProfileService;

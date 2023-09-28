@@ -15,6 +15,12 @@ var ProfileSchema = new _mongoose.Schema({
   email: {
     type: String
   },
+  name: {
+    type: String
+  },
+  department: {
+    type: String
+  },
   password: {
     type: String
   },

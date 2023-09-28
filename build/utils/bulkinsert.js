@@ -56,7 +56,7 @@ function _bulkinsert() {
                         grounding_chain: row.Grounding_Chain,
                         fasteners_and_aluminium_profile: row.Fasteners_and_Aluminium_profile,
                         rack_sides: row.Rack_Sides,
-                        stopper_rod: row.Stopper_Rod,
+                        stopper_rod: row.Stomaintenance_periodpper_Rod,
                         name_tag: row.Name_tag,
                         next_due_period: row.Next_Due_Period,
                         actual_product_use: row.Actual_Product_use,

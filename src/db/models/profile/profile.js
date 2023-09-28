@@ -4,6 +4,8 @@ import bcrypt from 'bcryptjs';
 const ProfileSchema = new Schema(
   {
     email: { type: String },
+    name: { type: String },
+    department: { type: String },
     password: { type: String },
     role: { type: String },
   },

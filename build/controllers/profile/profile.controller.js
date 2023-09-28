@@ -67,15 +67,15 @@ var PriceController = /*#__PURE__*/function () {
     key: "register",
     value: function () {
       var _register = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(req, res) {
-        var _req$body2, email, password, result;
+        var _req$body2, email, password, name, department, result;
         return _regeneratorRuntime().wrap(function _callee2$(_context2) {
           while (1) switch (_context2.prev = _context2.next) {
             case 0:
               _logger["default"].info('inside admin register controller');
               _context2.prev = 1;
-              _req$body2 = req.body, email = _req$body2.email, password = _req$body2.password;
+              _req$body2 = req.body, email = _req$body2.email, password = _req$body2.password, name = _req$body2.name, department = _req$body2.department;
               _context2.next = 5;
-              return _profile["default"].register(email, password);
+              return _profile["default"].register(name, department, email, password);
             case 5:
               result = _context2.sent;
               return _context2.abrupt("return", (0, _requestHandler.handleResponse)({
@@ -104,6 +104,89 @@ var PriceController = /*#__PURE__*/function () {
         return _register.apply(this, arguments);
       }
       return register;
+    }()
+  }, {
+    key: "get_user",
+    value: function () {
+      var _get_user = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3(req, res) {
+        var result;
+        return _regeneratorRuntime().wrap(function _callee3$(_context3) {
+          while (1) switch (_context3.prev = _context3.next) {
+            case 0:
+              _logger["default"].info('inside admin get users controller');
+              _context3.prev = 1;
+              _context3.next = 4;
+              return _profile["default"].get_users();
+            case 4:
+              result = _context3.sent;
+              return _context3.abrupt("return", (0, _requestHandler.handleResponse)({
+                res: res,
+                statusCode: result.status,
+                data: result
+              }));
+            case 8:
+              _context3.prev = 8;
+              _context3.t0 = _context3["catch"](1);
+              _logger["default"].info("Error from controller get users -> ".concat(_context3.t0));
+              return _context3.abrupt("return", (0, _requestHandler.handleError)({
+                res: res,
+                error: _context3.t0,
+                data: {
+                  message: _context3.t0.message
+                }
+              }));
+            case 12:
+            case "end":
+              return _context3.stop();
+          }
+        }, _callee3, null, [[1, 8]]);
+      }));
+      function get_user(_x5, _x6) {
+        return _get_user.apply(this, arguments);
+      }
+      return get_user;
+    }()
+  }, {
+    key: "user_delete",
+    value: function () {
+      var _user_delete = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4(req, res) {
+        var user_id, result;
+        return _regeneratorRuntime().wrap(function _callee4$(_context4) {
+          while (1) switch (_context4.prev = _context4.next) {
+            case 0:
+              _logger["default"].info('inside admin user delete controller');
+              _context4.prev = 1;
+              user_id = req.body.user_id;
+              _context4.next = 5;
+              return _profile["default"].delete_users(user_id);
+            case 5:
+              result = _context4.sent;
+              return _context4.abrupt("return", (0, _requestHandler.handleResponse)({
+                res: res,
+                statusCode: result.status,
+                data: result
+              }));
+            case 9:
+              _context4.prev = 9;
+              _context4.t0 = _context4["catch"](1);
+              _logger["default"].info("Error from controller admin register -> ".concat(_context4.t0));
+              return _context4.abrupt("return", (0, _requestHandler.handleError)({
+                res: res,
+                error: _context4.t0,
+                data: {
+                  message: _context4.t0.message
+                }
+              }));
+            case 13:
+            case "end":
+              return _context4.stop();
+          }
+        }, _callee4, null, [[1, 9]]);
+      }));
+      function user_delete(_x7, _x8) {
+        return _user_delete.apply(this, arguments);
+      }
+      return user_delete;
     }()
   }]);
   return PriceController;
