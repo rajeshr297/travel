@@ -79,7 +79,7 @@ const corsOptions = {
   origin: [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
-    'http://10.131.212.81:9000',
+    'http://10.131.212.81:3000',
     'http://54.251.225.222:3001',
   ],
   optionsSuccessStatus: 200, // For legacy browser support
