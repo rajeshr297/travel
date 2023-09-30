@@ -7,11 +7,14 @@ import compression from 'compression';
 import createError from 'http-errors';
 
 import mongoose from 'mongoose';
+import { Server } from 'socket.io';
+import { socketApi, socketconnection } from './socketserver';
 
 import routes from './routes/index';
 import { setupConnection } from './db/db.connect';
 import { handleError } from './middlewares/requestHandler';
 import logger from './middlewares/logger';
+import { socketclient } from './socket_client';
 
 // import morgan from 'morgan';
 const morgan = require('morgan');
@@ -145,10 +148,14 @@ if (process.env.NODE_ENV !== 'test') {
   server.listen(port, async () => {
     logger.info(`🚀 Running on ${process.pid} @ ${host}:${port}`);
     await setupConnection(); // database connection
+    await socketconnection(); // socket connection
+    await socketclient();
   });
   server.on('error', onError);
   // server.on('listening', onListening); function not working proper
 } // http protocols
+
+socketApi.io.attach(server, { cors: corsOptions });
 
 //= ==============socket=====================//
 // const io = new Server(server, { cors: corsOptions }); // socket connection
