@@ -148,8 +148,8 @@ if (process.env.NODE_ENV !== 'test') {
   server.listen(port, async () => {
     logger.info(`🚀 Running on ${process.pid} @ ${host}:${port}`);
     await setupConnection(); // database connection
-    await socketconnection(); // socket connection
-    await socketclient();
+    // await socketconnection(); // socket connection
+    // await socketclient();
   });
   server.on('error', onError);
   // server.on('listening', onListening); function not working proper
