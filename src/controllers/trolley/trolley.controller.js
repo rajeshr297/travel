@@ -135,6 +135,23 @@ class TrolleyController {
       return handleError({ res, error, data: { message: error.message } });
     }
   }
+
+  async trolley_inserts(req, res) {
+    try {
+      const { user_id } = req.body;
+      const csvfile = req.file;
+
+      const result = await TrolleyService.trolley_insert_bulk(user_id, csvfile);
+      return handleResponse({
+        res,
+        statusCode: result.status,
+        data: result,
+      });
+    } catch (error) {
+      logger.info(`Error from controller maintainer_insert -> ${error}`);
+      return handleError({ res, error, data: { message: error.message } });
+    }
+  }
 }
 
 export default new TrolleyController();

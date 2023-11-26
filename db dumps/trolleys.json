@@ -1,0 +1,754 @@
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821079"), 
+    "department_code" : "ABIA", 
+    "trolley_no" : "MT01-004", 
+    "haip_no" : "249", 
+    "rfid" : "E280681000000039DDBC8D14", 
+    "part_code" : "087552A.102", 
+    "part_code_description" : "CHASSIS", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.105+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.105+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b97982107b"), 
+    "department_code" : "ABIO", 
+    "trolley_no" : "TT01-36", 
+    "haip_no" : "277", 
+    "rfid" : "E2801191A50300622188E0E3", 
+    "part_code" : "092003A.105", 
+    "part_code_description" : "Vapor Chamber", 
+    "loading_quantity" : "30", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.143+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.143+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b97982107d"), 
+    "department_code" : "Amber", 
+    "trolley_no" : "MT71-010", 
+    "haip_no" : "247", 
+    "rfid" : "E280681000000039DDBC75D1", 
+    "part_code" : "834453D", 
+    "part_code_description" : "HANDLE", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.159+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.159+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b97982107f"), 
+    "department_code" : "Amber", 
+    "trolley_no" : "MT71-010", 
+    "haip_no" : "247", 
+    "rfid" : "E280681000000039DDBC75D1", 
+    "part_code" : "092221A.101", 
+    "part_code_description" : "Antenna", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.173+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.173+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821081"), 
+    "department_code" : "AHEC", 
+    "trolley_no" : "MT11-A02", 
+    "haip_no" : "471", 
+    "rfid" : "E28011606000020925E7DDCD", 
+    "part_code" : "089787A.101", 
+    "part_code_description" : "TOP COVER", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.190+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.190+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821083"), 
+    "department_code" : "AHEC", 
+    "trolley_no" : "MT11-A02", 
+    "haip_no" : "471", 
+    "rfid" : "E28011606000020925E7DDCD", 
+    "part_code" : "088428A.102", 
+    "part_code_description" : " PA Cover", 
+    "loading_quantity" : "20", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.206+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.206+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821085"), 
+    "department_code" : "AHEC", 
+    "trolley_no" : "MT11-A02", 
+    "haip_no" : "471", 
+    "rfid" : "E28011606000020925E7DDCD", 
+    "part_code" : "090061A.102", 
+    "part_code_description" : "FILTER", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.220+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.220+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821087"), 
+    "department_code" : "AHPB", 
+    "trolley_no" : "MT11-A06", 
+    "haip_no" : "470", 
+    "rfid" : "E28011606000020925E8091D", 
+    "part_code" : "088929A.207", 
+    "part_code_description" : "CHASSIS", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.236+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.236+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821089"), 
+    "department_code" : "AHPJ", 
+    "trolley_no" : "MT71-030", 
+    "haip_no" : "43", 
+    "rfid" : "E28068940000500740F1F97A", 
+    "part_code" : "093920B.101", 
+    "part_code_description" : "FILTER", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.249+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.249+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b97982108b"), 
+    "department_code" : "AHPJ", 
+    "trolley_no" : "MT77-041", 
+    "haip_no" : "579", 
+    "rfid" : "E28011606000020925E90D3C", 
+    "part_code" : "090254A.205", 
+    "part_code_description" : "Upper Chassis", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.268+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.268+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b97982108d"), 
+    "department_code" : "AHPJ", 
+    "trolley_no" : "MT77-028", 
+    "haip_no" : "593", 
+    "rfid" : "E280689400004000F4959470", 
+    "part_code" : "833538B", 
+    "part_code_description" : " bracket AHMA", 
+    "loading_quantity" : "50", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.281+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.281+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b97982108f"), 
+    "department_code" : "AHPJ", 
+    "trolley_no" : "MT26-002", 
+    "haip_no" : "297", 
+    "rfid" : "E28068940000500740F3D17D", 
+    "part_code" : "090254A.205", 
+    "part_code_description" : "Upper Chassis", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.297+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.297+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821091"), 
+    "department_code" : "AHPJ", 
+    "trolley_no" : "MT06-047", 
+    "haip_no" : "484", 
+    "rfid" : "E28011606000020925E90D3C", 
+    "part_code" : "090254A.205", 
+    "part_code_description" : "Upper Chassis", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.307+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.307+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821093"), 
+    "department_code" : "AHPJ", 
+    "trolley_no" : "MT06-081", 
+    "haip_no" : "393", 
+    "rfid" : "E28011606000020925E9D37E", 
+    "part_code" : "093920B.101", 
+    "part_code_description" : "FILTER", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.319+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.319+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821095"), 
+    "department_code" : "AHPJ", 
+    "trolley_no" : "MT11-A03", 
+    "haip_no" : "163", 
+    "rfid" : "E28011606000020925EA4459", 
+    "part_code" : "093920B.101", 
+    "part_code_description" : "FILTER", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.332+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.332+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821097"), 
+    "department_code" : "AHPJ", 
+    "trolley_no" : "MT11-A03", 
+    "haip_no" : "236", 
+    "rfid" : "E28011606000020925EA4459", 
+    "part_code" : "093920B.101", 
+    "part_code_description" : "FILTER", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.346+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.346+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b979821099"), 
+    "department_code" : "ARCA", 
+    "trolley_no" : "MT51-001", 
+    "haip_no" : "433", 
+    "rfid" : "E28011606000020925EA8491", 
+    "part_code" : "091019B.101", 
+    "part_code_description" : "FILTER", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.355+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.355+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b97982109b"), 
+    "department_code" : "ARDB", 
+    "trolley_no" : "MT06-089", 
+    "haip_no" : "316", 
+    "rfid" : "E28011700000020B9513EDD9", 
+    "part_code" : "091835A.203", 
+    "part_code_description" : "FILTER ARDB", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.371+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.371+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b97982109d"), 
+    "department_code" : "ARDB", 
+    "trolley_no" : "MT06-014", 
+    "haip_no" : "395", 
+    "rfid" : "E28011606000020925E7DD1D", 
+    "part_code" : "091835A.203", 
+    "part_code_description" : "FILTER ARDB", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.383+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.383+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b97982109f"), 
+    "department_code" : "AREA", 
+    "trolley_no" : "MT76-009", 
+    "haip_no" : "550", 
+    "rfid" : "E2801160600020925e8d90c", 
+    "part_code" : "090336a.101", 
+    "part_code_description" : "PA COVER", 
+    "loading_quantity" : "144", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.396+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.396+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210a1"), 
+    "department_code" : "AREA", 
+    "trolley_no" : "MT03-A02", 
+    "haip_no" : "345", 
+    "rfid" : "E28011606000020925E80873", 
+    "part_code" : "090367A.203", 
+    "part_code_description" : "CHASSIS", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.408+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.408+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210a3"), 
+    "department_code" : "AREA", 
+    "trolley_no" : "MT03-A06", 
+    "haip_no" : "268", 
+    "rfid" : "E28011700000020B9513ED29", 
+    "part_code" : "090368A.203", 
+    "part_code_description" : "TRX Cover", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.420+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.420+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210a5"), 
+    "department_code" : "AREA", 
+    "trolley_no" : "MT03-A06", 
+    "haip_no" : "268", 
+    "rfid" : "E28011700000020B9513ED29", 
+    "part_code" : "090367A.203", 
+    "part_code_description" : "CHASSIS", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.432+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.432+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210a7"), 
+    "department_code" : "ARGA", 
+    "trolley_no" : "MT06-076", 
+    "haip_no" : "60", 
+    "rfid" : "E28011606000020925E9E4B7", 
+    "part_code" : "091011E.101", 
+    "part_code_description" : "Filter", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.442+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.442+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210a9"), 
+    "department_code" : "ARGA", 
+    "trolley_no" : "MT06-013", 
+    "haip_no" : "260", 
+    "rfid" : "E28011700000020B951409C9", 
+    "part_code" : "091011E.101", 
+    "part_code_description" : "Filter", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.453+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.453+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210ab"), 
+    "department_code" : "ARGA", 
+    "trolley_no" : "MT06-001", 
+    "haip_no" : "246", 
+    "rfid" : "E28011700000020B9513EDE6", 
+    "part_code" : "091011B.101", 
+    "part_code_description" : "Filter", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.466+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.466+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210ad"), 
+    "department_code" : "ARGA", 
+    "trolley_no" : "MT29-014", 
+    "haip_no" : "360", 
+    "rfid" : "E28011606000020925E9E4C9", 
+    "part_code" : "833656A", 
+    "part_code_description" : "CHASSIS", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.481+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.481+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210af"), 
+    "department_code" : "ARPA", 
+    "trolley_no" : "MT06-034", 
+    "haip_no" : "315", 
+    "rfid" : "E28011606000020925E90486", 
+    "part_code" : "091018E.101", 
+    "part_code_description" : "Filter", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.495+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.495+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210b1"), 
+    "department_code" : "ARPA", 
+    "trolley_no" : "MT35-001", 
+    "haip_no" : "367", 
+    "rfid" : "E280681000000039DDBC6E80", 
+    "part_code" : "091018E.101", 
+    "part_code_description" : "Filter", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.504+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.504+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210b3"), 
+    "department_code" : "ASIB", 
+    "trolley_no" : "MT25-013", 
+    "haip_no" : "361", 
+    "rfid" : "E28011700000020B95120517", 
+    "part_code" : "089814A.103", 
+    "part_code_description" : "CHASSIS", 
+    "loading_quantity" : "24", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.515+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.515+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210b5"), 
+    "department_code" : "AZNA", 
+    "trolley_no" : "MT06-095", 
+    "haip_no" : "207", 
+    "rfid" : "E28011700000020B951361E8", 
+    "part_code" : "091019B.101", 
+    "part_code_description" : "FILTER", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.526+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.526+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210b7"), 
+    "department_code" : "DF-16", 
+    "trolley_no" : "MT75-007", 
+    "haip_no" : "248", 
+    "rfid" : "E28011700000021368285B2B", 
+    "part_code" : "3FE77705AAAA", 
+    "part_code_description" : "CHASSIS", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.535+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.535+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210b9"), 
+    "department_code" : "FRAC", 
+    "trolley_no" : "MT29-020", 
+    "haip_no" : "250", 
+    "rfid" : "E28011700000021368293DAB", 
+    "part_code" : "086648A.103", 
+    "part_code_description" : "CHASSIS", 
+    "loading_quantity" : "10", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.563+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.563+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210bb"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-D07", 
+    "haip_no" : "287", 
+    "rfid" : "E28011700000020B9512F905", 
+    "part_code" : "093480A.101", 
+    "part_code_description" : "ANTENNA FILTER MODULE", 
+    "loading_quantity" : "9", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.604+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.604+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210bd"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-D02", 
+    "haip_no" : "263", 
+    "rfid" : "E2801170000002136827F33A", 
+    "part_code" : "093168A.101", 
+    "part_code_description" : "AQQA AFM", 
+    "loading_quantity" : "9", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.652+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.652+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210bf"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT06-082", 
+    "haip_no" : "110", 
+    "rfid" : "E28011606000020925E902B7", 
+    "part_code" : "093168A.101", 
+    "part_code_description" : "AQQA AFM", 
+    "loading_quantity" : "9", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.671+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.671+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210c1"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-D04", 
+    "haip_no" : "244", 
+    "rfid" : "E28011606000020925E9B003", 
+    "part_code" : "092858A.101", 
+    "part_code_description" : "ANTENNA FILTER MODULE", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.680+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.680+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210c3"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-D05", 
+    "haip_no" : "39", 
+    "rfid" : "E28011606000020925E9E227", 
+    "part_code" : "093480A.101", 
+    "part_code_description" : "ANTENNA FILTER MODULE", 
+    "loading_quantity" : "9", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.711+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.711+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210c5"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "PT05-39", 
+    "haip_no" : "182", 
+    "rfid" : "E2801191A50300622189CA43", 
+    "part_code" : "094159A.101", 
+    "part_code_description" : "BTP COVER INTERIM", 
+    "loading_quantity" : "20", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.759+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.759+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210c7"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT06-036", 
+    "haip_no" : "214", 
+    "rfid" : "E280689400004000F492806F", 
+    "part_code" : "094158A.101", 
+    "part_code_description" : "MAIN HOUSING INTERIM", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.786+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.786+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210c9"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-D06", 
+    "haip_no" : "283", 
+    "rfid" : "E28011700000020B9511F3B7", 
+    "part_code" : "092858A.101", 
+    "part_code_description" : "ANTENNA FILTER MODULE", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.822+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.822+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210cb"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT06-094", 
+    "haip_no" : "313", 
+    "rfid" : "E280681000000039DDBC7556", 
+    "part_code" : "094158A.101", 
+    "part_code_description" : "MAIN HOUSING INTERIM", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.831+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.831+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210cd"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT71-017", 
+    "haip_no" : "335", 
+    "rfid" : "E2801170000002136829610B", 
+    "part_code" : "093239A.202", 
+    "part_code_description" : "MAIN HS ASSEMBLY", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.851+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.851+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210cf"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "TT01-066", 
+    "haip_no" : "317", 
+    "rfid" : "E280689400005000F493C86F", 
+    "part_code" : "092664A.101", 
+    "part_code_description" : "AQQY BTP COVER ASSEMBLY", 
+    "loading_quantity" : "20", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.863+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.863+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210d1"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "PA01-13", 
+    "haip_no" : "467", 
+    "rfid" : "E28011700000020B95137B57", 
+    "part_code" : "093413A.102", 
+    "part_code_description" : "GALVATRON FAN COVER", 
+    "loading_quantity" : "40", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.871+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.871+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210d3"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-A03", 
+    "haip_no" : "84", 
+    "rfid" : "E280117000000213682909BA", 
+    "part_code" : "094200a.102", 
+    "part_code_description" : "AQQF MAIN HOUSING INTERIM", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.880+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.880+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210d5"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "TT01-37", 
+    "haip_no" : "213", 
+    "rfid" : "E28011700000021368280DEB", 
+    "part_code" : "094159A.101", 
+    "part_code_description" : "BTP COVER INTERIM", 
+    "loading_quantity" : "20", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.888+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.888+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210d7"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "PP01-51", 
+    "haip_no" : "256", 
+    "rfid" : "E28011700000021368279B69", 
+    "part_code" : "093169A.107", 
+    "part_code_description" : "TRX Module", 
+    "loading_quantity" : "20", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.898+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.898+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210d9"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-A01", 
+    "haip_no" : "291", 
+    "rfid" : "E280681000000039DDBC70C6", 
+    "part_code" : "094200A.102", 
+    "part_code_description" : "AQQF MAIN HOUSING INTERIM", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.905+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.905+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210db"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "TT29-016", 
+    "haip_no" : "496", 
+    "rfid" : "E280681000000039DDBC8D14", 
+    "part_code" : "093169A.107", 
+    "part_code_description" : "TRX Module", 
+    "loading_quantity" : "20", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.941+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.941+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210dd"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT55-002", 
+    "haip_no" : "269", 
+    "rfid" : "E28011606000020925E80885", 
+    "part_code" : "093055A.101", 
+    "part_code_description" : "PSU COVER", 
+    "loading_quantity" : "72", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.968+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.968+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210df"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT06-042", 
+    "haip_no" : "265", 
+    "rfid" : "E28011606000020925E9E479", 
+    "part_code" : "093055A.101", 
+    "part_code_description" : "PSU COVER", 
+    "loading_quantity" : "72", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.979+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.979+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36be9021f9b9798210e1"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT71-025", 
+    "haip_no" : "538", 
+    "rfid" : "E28068940000400740F1D579", 
+    "part_code" : "092664A.203", 
+    "part_code_description" : "BTP Cover Assembly", 
+    "loading_quantity" : "20", 
+    "createdAt" : ISODate("2023-09-08T14:59:10.987+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:10.987+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36bf9021f9b9798210e3"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT06-097", 
+    "haip_no" : "241", 
+    "rfid" : "E2801170000002136829613A", 
+    "part_code" : "092664A.203", 
+    "part_code_description" : "AQQY BTP Cover Assembly", 
+    "loading_quantity" : "20", 
+    "createdAt" : ISODate("2023-09-08T14:59:11.005+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:11.005+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36bf9021f9b9798210e5"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-A02", 
+    "haip_no" : "366", 
+    "rfid" : "E280117000000213682995AB", 
+    "part_code" : "094159A.101", 
+    "part_code_description" : "Main Housing Interim", 
+    "loading_quantity" : "8", 
+    "createdAt" : ISODate("2023-09-08T14:59:11.014+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:11.014+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36bf9021f9b9798210e7"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-D01", 
+    "haip_no" : "296", 
+    "rfid" : "E2801170000002136827F33A", 
+    "part_code" : "093480A.101", 
+    "part_code_description" : "Antenna Filter Module", 
+    "loading_quantity" : "9", 
+    "createdAt" : ISODate("2023-09-08T14:59:11.023+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:11.023+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("64fb36bf9021f9b9798210e9"), 
+    "department_code" : "GALVATRON", 
+    "trolley_no" : "MT02-D03", 
+    "haip_no" : "168", 
+    "rfid" : "E280689400004000F492786E", 
+    "part_code" : "093480A.101", 
+    "part_code_description" : "Antenna Filter Module", 
+    "loading_quantity" : "9", 
+    "createdAt" : ISODate("2023-09-08T14:59:11.033+0000"), 
+    "updatedAt" : ISODate("2023-09-08T14:59:11.033+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("650d291456f9456b90694e54"), 
+    "department_code" : "o1", 
+    "trolley_no" : "TT01-050", 
+    "haip_no" : "T356M", 
+    "rfid" : "e200470c0ff064267da5010c", 
+    "part_code" : "092664A.101", 
+    "part_code_description" : "AQQF", 
+    "loading_quantity" : "12", 
+    "createdAt" : ISODate("2023-09-22T05:41:40.368+0000"), 
+    "updatedAt" : ISODate("2023-09-22T05:41:40.368+0000"), 
+    "__v" : NumberInt(0)
+}

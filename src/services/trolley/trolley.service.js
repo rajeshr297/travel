@@ -1,5 +1,6 @@
-import { Trolley } from '../../db/models';
+import { Bulkinsert, Trolley } from '../../db/models';
 import logger from '../../middlewares/logger';
+import { bulkInsertUpload, bulkinsert } from '../../utils/bulkinsert';
 // import loaderjson from '../../../loader.json';
 
 class TrolleryService {
@@ -184,6 +185,32 @@ class TrolleryService {
         message: 'successfully product count',
         status: 200,
         trolley: productcal,
+      };
+    } catch (error) {
+      logger.error(error);
+      throw error;
+    }
+  }
+
+  async trolley_insert_bulk(user_id, file) {
+    try {
+      if (file === undefined || !file) {
+        return {
+          message: 'file is empty',
+          status: 404,
+        };
+      }
+      const createbulkrecord = await Bulkinsert.create({
+        user_id,
+        type_bulkinsert: 'Trolley',
+        status: 'InProgress',
+      });
+
+      bulkInsertUpload(createbulkrecord._id, file);
+      return {
+        status: 201,
+        message: 'sucessfully inited query insert',
+        bulkinsert: createbulkrecord,
       };
     } catch (error) {
       logger.error(error);

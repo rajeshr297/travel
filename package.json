@@ -50,6 +50,7 @@
     "helmet": "^6.0.0",
     "http-errors": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
+    "llrpjs": "^1.0.1",
     "lodash": "^4.17.21",
     "moment-timezone": "^0.5.38",
     "mongoose": "^6.6.7",

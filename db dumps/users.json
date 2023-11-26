@@ -1,0 +1,7 @@
+{ 
+    "_id" : ObjectId("64facd7314d3cfcb9731a996"), 
+    "email" : "hemakumarm72@gmail.com", 
+    "password" : "$2a$10$.VX6Ops0Glz1RzZcfZONWOhLBUEloJz6QEOpWjMTo.8F7rVR9VDzW", 
+    "role" : "Admin", 
+    "__v" : NumberInt(0)
+}

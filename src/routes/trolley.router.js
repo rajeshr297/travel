@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import trolleyController from '../controllers/trolley/trolley.controller';
+import { upload } from '../middlewares/multer';
 
 const TrolleyRouter = Router();
 
@@ -9,6 +10,7 @@ TrolleyRouter
   .put('/updatetrolley', trolleyController.update_trollerys)
   .post('/deletetrolley', trolleyController.deletetrolley)
   .get('/getcount', trolleyController.getcount)
-  .get('/getproductcount', trolleyController.product_count);
+  .get('/getproductcount', trolleyController.product_count)
+  .post('/trolleyinsert', upload.single('csv'), trolleyController.trolley_inserts);
 
 export default TrolleyRouter;
