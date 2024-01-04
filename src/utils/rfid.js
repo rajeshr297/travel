@@ -8,6 +8,7 @@ reader.on('RO_ACCESS_REPORT', (msg) => {
   if (!Array.isArray(tagReportDataList)) {
     tagReportDataList = [tagReportDataList];
   }
+
   for (const tagReportData of tagReportDataList) {
     const epc = tagReportData.getEPCParameter();
     console.log(`EPC: ${epc.getEPC()}`);
@@ -20,15 +21,16 @@ reader.on('READER_EVENT_NOTIFICATION', (msg) => {
 });
 
 reader.on('error', (err) => {
-  // handle errors
+// handle errors
 });
 reader.on('connect', () => {
   console.log('connected');
 });
+// connection disconnected
 reader.on('disconnect', () => {
   console.log('disconnected');
 });
-
+// checking connectionstatus
 const checkConnectionStatus = async () => {
   const msg = await reader.recv(7000);
   if (!(msg instanceof LLRPCore.READER_EVENT_NOTIFICATION)) {
@@ -36,6 +38,7 @@ const checkConnectionStatus = async () => {
       `connection status check failed - unexpected message ${msg.getName()}`,
     );
   }
+
   const status = msg
     .getReaderEventNotificationData()
     .getConnectionAttemptEvent()

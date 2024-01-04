@@ -26,6 +26,27 @@ const Adminauth = async function (socket) {
       //   });
       // }
 
+      // const Adminauth + async function (socket)
+      // {
+      //   try {
+      //     const { token } = socket.handshake.auth;
+      //     if (token) {
+
+      //     }
+      //   }
+      // }
+
+      // const decodetokens = await jst.verify (token , process.env Admin_Access_Token);
+      //   if (!decodetakens.id)
+      //   {
+      //     return io.of('/api/companies/socket') .to (socket.id).emit ('error',
+      //     {
+      //       message : 'token is expired, again login',
+      //       status : 400,
+
+      //     });
+      //   }
+
       // socket.adminuser = user._id;
       // socket.adminrole = decodetoken.role;
       // const online = socket.client.conn.server.clientsCount;
@@ -53,6 +74,15 @@ const Adminauth = async function (socket) {
     });
   }
 };
+
+// const OnliveTrackconnections = async function (socket)
+// {
+//   await.Adminauth(socket);
+// };
+
+// const onliveTrackConnection = async function (socket) {
+//   await Adminauth(socket);
+// };
 
 const OnliveTrackconnection = async function (socket) {
   await Adminauth(socket);

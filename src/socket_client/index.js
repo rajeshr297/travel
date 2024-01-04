@@ -15,22 +15,27 @@ export const socketclient = async () => {
       console.log(res);
       const token = res.data.data.access_token;
       // const socket = io(`ws://${HYBRID_CONN}/subscribe?token=${token}`);
+      // waits for axios to get the address
       await axios
         .get(`http://${HYBRID_CONN}/tags`, {
           headers: {
             authkey: token,
           },
         })
+        // responding to that api called
         .then((responseAllTags) => {
           this.allTags = responseAllTags.data;
           console.log('tags api called');
         })
+        // display the  error message
         .catch((err) => {
           console.log(err.message);
         });
       this._registerListeners();
+      // performed before an object is discarded
       this._deregisterListeners();
     });
+    // the error message associated with the caught error
   } catch (error) {
     logger.error(error.message);
   }

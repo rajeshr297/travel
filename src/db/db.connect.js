@@ -13,8 +13,10 @@ const setupConnection = async (dbconnection) => {
 
     await mongoose.connect(config.db.str, config.db.options);
     await mongoose.connection.on('disconnected', () => {
+      // display the connnection with database is get disconnected
       logger.debug('🔴  Mongoose connection database is disconnected');
     });
+    // connectin of database is opened
     const word = dbconnection || 'Mongoose connection open to Nokia Trolley DB';
     logger.info(`💹 ${word}`);
   } catch (err) {
